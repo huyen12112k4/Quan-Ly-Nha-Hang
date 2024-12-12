@@ -1,0 +1,330 @@
+:root
+{
+    
+    --text_font:"Comic Sans MS", cursive;
+    --text-color:#F7C843;
+    --back_ground_color:#ebdab7
+}
+
+.background
+{
+    /* background-image: url(https://cdn.sanity.io/images/njo473vo/production/4acabe323fe9e6b9aa3efa3a33b40bc47b95214c-5184x3456.jpg); */
+    /* Ảnh sẽ bao phủ toàn bộ */
+    background-position: center; /* Đặt ảnh ở giữa */
+    background-repeat: no-repeat; /* Không lặp lại ảnh */
+    background-color:#F7F5F2;
+    width: 100%;
+    height: 100vh; /* Chiều cao bằng chiều cao của viewport */
+    position: fixed; /* Giữ vị trí cố định */
+    top: 0;
+    left: 0; background-size: cover;
+    z-index: -1; /* Đưa ảnh xuống phía sau các nội dung khác */
+}
+
+.logo .logo
+{
+    width:10vw;
+    height:17vh;
+    margin-top:-17vh;
+    margin-left: 45vw;
+    position:absolute
+}
+
+.box_Reservation
+{
+    
+
+    position: relative;
+    width:45vw;
+    height:80vh;
+    color:white;
+    display:flex;
+    align-items: top;
+    justify-content: center;
+    background-color: rgba(230, 57, 70, 0.9) ;
+    z-index: 1;
+    border-radius: 0.5vw;
+    margin-top: 17vh;
+    margin-left: 28vw;
+}
+
+.box_Reservation .Reservation_text
+{
+    
+    color:var(--text-color);
+    font-size:6vh;
+    font-family: var(--text_font);
+    font-weight: bold;
+    margin-top: 2vh;
+    position: absolute;
+}
+
+.box_Reservation .FullName_text
+{
+   
+    font:var(--text_font);
+    color: var(--text-color);
+    font-size:2vh;
+    font-family: var(--text_font);
+    font-weight: bold;
+    margin-top: 12vh;
+    margin-right:32vw;
+    position: absolute; 
+}
+
+
+
+#FullName_box
+{
+   
+    width: 80%;
+    height:4vh;
+    padding: 0.8vh;
+    margin: 0.5vh 0;
+    border: 0.1vw solid white;
+    border-radius: 0.5vw;
+    background-color: white;
+    color:black;
+    font-size: 1rem;
+    position: absolute;
+    margin-top:16vh;
+   
+}
+
+#FullName_box::placeholder
+{
+    font-size:2vh;
+}
+
+.box_Reservation .Tel_text
+{
+    
+    font:var(--text_font);
+    color: var(--text-color);
+    font-size:2vh;
+    font-family: var(--text_font);
+    font-weight: bold;
+    margin-top: 25vh;
+    margin-right:30vw;
+    position: absolute; 
+}
+
+#Tel_box
+{
+   
+    width: 80%;
+    height:4vh;
+    padding: 0.8vh;
+    margin: 0.5vh 0;
+    border: 0.1vw solid white;
+    border-radius: 0.5vw;
+    background-color: white;
+    color:black;
+    font-size: 1rem;
+    position: absolute;
+    margin-top:29vh; 
+}
+
+#Tel_box::placeholder
+{
+    font-size:2vh;
+}
+
+.box_Reservation .Choose_branch_text
+{
+    
+    color:var(--text-color);
+    font-size:2vh;
+    font-family: var(--text_font);
+    font-weight: bold;
+    margin-top: 39vh;
+    margin-right:30vw;
+    position: absolute;
+}
+
+.box_Reservation .dropdown_branch select {
+   
+    padding: 1vh;
+    font-size: 1.6vh;
+    width: 7vw;
+    border-radius: 0.5vw;
+    border: 0.1vw solid white;
+    background-color: white;
+    appearance: none;
+    cursor: pointer;
+    text-align: center; /* Căn giữa chữ trong dropdown */
+    text-align-last: center;
+    transition: border-color 0.3s ease;
+}
+
+.box_Reservation .dropdown_branch
+{
+   
+    position:absolute;
+    margin-top:38.7vh;
+    margin-right: 15vw;
+}
+
+.box_Reservation .Choose_address_text
+{
+    
+    color:var(--text-color);
+    font-size:2vh;
+    font-family: var(--text_font);
+    font-weight: bold;
+    margin-top: 39vh;
+    margin-right:-3vw;
+    position: absolute;
+}
+
+.box_Reservation .dropdown_address select {
+   
+    padding: 1vh;
+    font-size: 1.6vh;
+    width: 14vw;
+    border-radius: 0.5vw;
+    border: 0.1vw solid white;
+    background-color: white;
+    appearance: none;
+    cursor: pointer;
+    text-align: center; /* Căn giữa chữ trong dropdown */
+    text-align-last: center;
+    transition: border-color 0.3s ease;
+    position:absolute;
+    
+}
+.box_Reservation .dropdown_address
+{
+   
+    position:absolute;
+    margin-top:38.7vh;
+    margin-right: -8vw;
+}
+
+
+.box_Reservation .Num_text
+{
+    
+    color:var(--text-color);
+    font-size:2vh;
+    font-family: var(--text_font);
+    font-weight: bold;
+    margin-top: 47vh;
+    margin-right:29vw;
+    position: absolute; 
+}
+
+#Num_box
+{
+   
+    width: 5vw;
+    height:2vh;
+    padding: 0.8vh;
+    margin: 0.5vh 0;
+    border: 0.1vw solid white;
+    border-radius: 0.5vw;
+    background-color: white;
+    color:black;
+    font-size: 1rem;
+    position: absolute;
+    margin-top:46.5vh; 
+    margin-right:14vw;
+}
+
+.box_Reservation .Time_text
+{
+   
+    color:var(--text-color);
+    font-size:2vh;
+    font-family: var(--text_font);
+    font-weight: bold;
+    margin-top: 47vh;
+    margin-right:-1.5vw;
+    position: absolute; 
+}
+
+#Time_box
+{
+   
+    width: 7vw;
+    height:2vh;
+    padding: 0.8vh;
+    margin: 0.5vh 0;
+    border: 0.1vw solid white;
+    border-radius: 0.5vw;
+    background-color: white;
+    color:black;
+    font-size: 1rem;
+    position: absolute;
+    margin-top:46.5vh; 
+    margin-right:-16vw;
+}
+
+
+.box_Reservation .Note_text
+{
+   
+    color:var(--text-color);
+    font-size:2vh;
+    font-family: var(--text_font);
+    font-weight: bold;
+    margin-top: 54vh;
+    margin-right:34vw;
+    position: absolute; 
+}
+
+#Note_box
+{
+   
+    width: 80%;
+    height:4vh;
+    padding: 0.8vh;
+    margin: 0.5vh 0;
+    border: 0.1vw solid white;
+    border-radius: 0.5vw;
+    background-color: white;
+    color:black;
+    font-size: 1rem;
+    position: absolute;
+    margin-top:58vh; 
+}
+
+/*#1D2128FF*/
+
+.box_Reservation button
+{
+   
+    width:9vw;
+    height:8vh;
+    position: absolute;
+    font-family: var(--text_font);
+    font-size:1.5vh;
+    border-radius: 0.5vw;
+    background-color: var(--text-color);
+    color:black;
+    margin-top:68vh;
+    
+}
+
+.box_Reservation button:focus
+{
+    outline: none; 
+    border-color:var(--text-color);
+    background-color:var(--text-color)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
